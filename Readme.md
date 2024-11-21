@@ -99,7 +99,7 @@ Using SQL views allows us to efficiently filter and prepare data for analysis, r
 - Create views to combine these data points.
 
 <p align="center">
-<img src="images/view_sql.png>
+<img src="images/view_sql.png">
 </p>
 
 ---
@@ -117,7 +117,7 @@ By analyzing the data in these distinct periods, we can assess how engagement ch
 - Aggregate data for Q2 2021 and Q2 2022.
 
 <p align ="center">
-<img src = "images/sql_periods.png>
+<img src = "images/sql_periods.png">
 </p>
 
 ---
@@ -135,7 +135,7 @@ Certificates issued can indicate the level of student achievement and engagement
 - Compare across Q2 2021 and Q2 2022.
 
 <p align ="center">
-<img src = "images/certificate_sql.png>
+<img src = "images/certificate_sql.png">
 </p>
 ---
 
@@ -148,7 +148,7 @@ Outliers in the data can skew analysis and lead to inaccurate conclusions. Using
 Outliers can distort statistical tests and regression models, so it's important to remove them before proceeding with further analysis.
 
 <p align ="center">
-<img src = "images/Before_outlier_removal.png>
+<img src = "images/Before_outlier_removal.png">
 </p>
 
 #### **Python Code**:
@@ -162,7 +162,7 @@ minutes_watched_2022_free=minutes_watched_2022_free[minutes_watched_2022_free['m
 ```
 
 <p align ="center">
-<img src = "images/After_outlier_removal.png>
+<img src = "images/After_outlier_removal.png">
 </p>
 
 ### Part 5: Data Analysis with Excel – Hypothesis Testing
@@ -187,12 +187,12 @@ Hypothesis testing helps us objectively determine whether the observed differenc
    - If the p-value is greater than 0.05, we fail to reject the null hypothesis and conclude that the difference is not statistically significant.
 
 <p align ="center">
-<img src = "images/Summary_stat.png>
+<img src = "images/Summary_stat.png">
 </p>
 
 
 <p align ="center">
-<img src = "images/Hypo_testing.png>
+<img src = "images/Hypo_testing.png">
 </p>
 
 
@@ -238,7 +238,7 @@ Correlation analysis helps us identify patterns or relationships between differe
    - A weak or negative correlation may suggest that other factors, like course difficulty or engagement in exams, play a role in certificate issuance.
 
 <p align ="center">
-<img src = "images/Hypo_testing.png>
+<img src = "images/Hypo_testing.png">
 </p>
 
 ### Part 7: Dependencies and Probabilities
@@ -271,7 +271,7 @@ Understanding dependencies and probabilities helps us assess the effect of one v
    - Use the formula to calculate the conditional probability of a student watching a course given they are enrolled in a career track.
 
 <p align ="center">
-<img src = "images/prob.png>
+<img src = "images/prob.png">
 </p>
 
 ### Part 8: Data Prediction with Python
@@ -309,7 +309,7 @@ Predictive modeling enables us to anticipate future trends and behavior based on
    - These predictions will help determine which students are more likely to engage and which may require intervention or targeted features.
 
 <p align ="center">
-<img src = "images/python.png>
+<img src = "images/python.png">
 </p>
 
 ### Conclusion
