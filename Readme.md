@@ -57,8 +57,8 @@ pip install pandas matplotlib statsmodels scikit-learn seaborn
 ```
 4. Set up SQL Database:
 
-**Import the provided SQL database into MySQL Workbench or your preferred SQL platform.**
-**Connect to the database and verify the tables for student engagement data.**
+Import the provided SQL database into MySQL Workbench or your preferred SQL platform.
+Connect to the database and verify the tables for student engagement data.
 
 ## Tools and Libraries Used
 
@@ -74,10 +74,10 @@ pip install pandas matplotlib statsmodels scikit-learn seaborn
 
 ## Hypothesis
 
-We conducted hypothesis testing to determine if student engagement in Q2 2022 was significantly higher than in Q2 2021. The null hypothesis and alternative hypothesis were defined as follows:
+We conducted hypothesis testing to determine if student engagement in Q2 2022 was significantly higher than in Q2 2021. The null hypothesis and alternative hypothesis were defined as follows
 
-Null Hypothesis (H₀): There is no significant difference in engagement between Q2 2021 and Q2 2022.
-Alternative Hypothesis (H₁): Engagement in Q2 2022 is higher than in Q2 2021.
+**Null Hypothesis (H₀)**: There is no significant difference in engagement between Q2 2021 and Q2 2022.
+**Alternative Hypothesis (H₁)**: Engagement in Q2 2022 is higher than in Q2 2021.
 ---
 
 
@@ -152,6 +152,7 @@ Outliers can distort statistical tests and regression models, so it's important 
 </p>
 
 #### **Python Code**:
+
 ```python
 #now lets filter the data
 minutes_watched_2021_paid=minutes_watched_2021_paid[minutes_watched_2021_paid['minutes_watched']<percentile_99_2021_paid]
